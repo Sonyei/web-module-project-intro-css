@@ -78,6 +78,7 @@ body {
     padding: 1.5rem;
     color: white;
     font-size: 2.5rem;
+    line-height: 1.1;
     text-align: center;
     text-decoration: none;
 }
@@ -98,25 +99,27 @@ body {
     background:#FFCD69;
 }
 
-.logo {
+.top {
+    background: yellow;
+    padding: 2.5%;
+}
+
+.content-left {
+    display: inline-block;
+    width: 24.5%;
+    margin-left: 5.5%;
+}
+
+.content-right {
+    display: inline-block;
+    width: 60%;
+    background: pink;
+}
+
+#circles {
     border-radius: 50%;
-    width: 90%;
 }
 
-.headcontainer {
-    height: 20%;
-}
-
-.left {
-    display: inline-block;
-    width: 25%;
-    margin: 3% 0 0 8%;
-}
-
-.right {
-    display: inline-block;
-    width: 65%;
-}
 
 h1, h2, h3, p {
     text-align: center;
@@ -125,6 +128,7 @@ h1, h2, h3, p {
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 7rem;
+    padding-bottom: 2%;
 }
 
 h3 {
