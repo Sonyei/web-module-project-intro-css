@@ -175,25 +175,26 @@ img {
     padding: 0 1.8% 1%;
 }
 
-.empty-box {
-    display: inline-block;
-    width: 25%;
-    margin: 0 auto;
-    background: green;
-}
-
 .warning {
     display: inline-block;
-    width: 20%;
-    margin: 0 auto;
-    background: pink;
+    width: 30%;
+    margin: 0 35% 6%;
 }
 
 .warning p {
-    padding: 0 40%;
+    padding: 0 10%;
 }
 
+.bold {
+    font-weight: 900;
+}
+
+footer {
+    background: #F9E7DC;
+    height: 10%;
+}
 
 .footer-banner {
+    display: block;
     width: 100%;
 }
