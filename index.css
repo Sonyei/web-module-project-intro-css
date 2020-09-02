@@ -91,7 +91,6 @@ img {
     display: block;
     margin: 0 auto;
     width: 15rem;
-
 }
 
 .container nav a {
@@ -182,7 +181,7 @@ img {
 }
 
 .warning p {
-    padding: 0 10%;
+    padding: 2.8% 10% 0;
 }
 
 .bold {
@@ -191,10 +190,9 @@ img {
 
 footer {
     background: #F9E7DC;
-    height: 10%;
 }
 
-.footer-banner {
-    display: block;
+.container footer img{
     width: 100%;
+    height: 2%;
 }
