@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,22 +62,79 @@ HTML {
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     border: grey solid 1px;
     border-top: none;
     width: 76%;
     margin: 0 auto;
 }
 
-li {
-    background-color: blue;
+.container nav a {
     display: inline-block;
     height: 7.8rem;
-    width: 10rem;
-    margin: 2.8% 10.4%;
+    width: 21rem;
+    margin: 2.8% 6.35%;
+    border-radius: 20px;
+    padding: 1.5rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
 }
 
-li:nth-child(1) {
+.container a:nth-child(1) {
     margin-left: 15%;
 }
+
+.container a.first {
+    background:#FF764E;
+}
+
+.container a.second {
+    background:#5ED3EB;
+}
+
+.container a.third {
+    background:#FFCD69;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 90%;
+}
+
+.headcontainer {
+    height: 20%;
+}
+
+.left {
+    display: inline-block;
+    width: 25%;
+    margin: 3% 0 0 8%;
+}
+
+.right {
+    display: inline-block;
+    width: 65%;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
 
 
