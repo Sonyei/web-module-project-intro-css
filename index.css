@@ -63,8 +63,6 @@ HTML {
 
 body {
     font-family: 'Roboto Mono', monospace;
-    border: grey solid 1px;
-    border-top: none;
     width: 76%;
     margin: 0 auto;
     padding: .8%;
@@ -82,11 +80,18 @@ h1 {
 
 h3 {
     font-size: 2.5rem;
-    margin: 2.2% 2% 2% 7%;
+    margin: 6% 0 2% 7%;
 }
 
 p {
     font-size: 1.8rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+
 }
 
 .container nav a {
@@ -145,13 +150,14 @@ p {
 }
 
 .content-right p {
-    margin: 1% 15%;
-    padding-top: 2%;
+    margin: 0 15%;
+    padding: 2.5% 0;
     font-size: 2.6rem;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 #circles {
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -159,15 +165,35 @@ p {
 .info {
     background: #DDB9A3;
     padding: 1%;
-    margin: 3%;
+    margin: 1.3% 2.8%;
 }
 
 .info p {
-    font-size: 2.5rem;
-    line-height: 1.2;
+    font-size: 2.2rem;
+    line-height: 1.5;
     color: #ffffff;
-    padding-bottom: 1%;
+    padding: 0 1.8% 1%;
+}
+
+.empty-box {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    background: green;
+}
+
+.warning {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    background: pink;
+}
+
+.warning p {
+    padding: 0 40%;
 }
 
 
-
+.footer-banner {
+    width: 100%;
+}
