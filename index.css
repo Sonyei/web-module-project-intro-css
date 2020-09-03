@@ -79,6 +79,21 @@ footer {
     background:#FFCD69;
 }
 
+.container a.first:hover{
+    background:#ff3d1b;
+    box-shadow: 6px 6px 10px #ff3d1b85;
+}
+
+.container a.second:hover {
+    background:#0b9dff;
+    box-shadow: 6px 6px 10px #0b9dff52;
+}
+
+.container a.third:hover {
+    background:#e98323;
+    box-shadow: 6px 6px 10px #e98323a6;
+}
+
 .top {
     background: #ffffff;
     padding: 2.5%;
@@ -139,6 +154,7 @@ footer {
 }
 
 .footer-img{
+    margin-top: 1%;
     width: 100%;
     background-image:url(/assets/footer_img.jpg);
     background-size: cover;
