@@ -44,9 +44,10 @@ img {
 }
 
 @keyframes invert-colors {
-    25%  { filter:invert(.8); }
+    25%  { filter:invert(1); }
     50%  { filter:invert(1); }
-    100% { filter:invert(.6); }
+    75%  { filter:invert(1); }
+    100% { filter:invert(.4); }
 }
 
 img:hover {
